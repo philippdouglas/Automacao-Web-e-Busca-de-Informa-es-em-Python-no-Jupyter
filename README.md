@@ -6,15 +6,27 @@
 </div>
 
 ## Desafio
+Trabalhamos em uma importadora e o preço dos nossos produtos é vinculado a cotação de:
+- Dólar
+- Euro
+- Ouro
 
+Precisamos pegar na internet, de forma automática, a cotação desses 3 itens e saber quanto devemos cobrar pelos nossos produtos, considerando uma margem de contribuição que temos na nossa base de dados.
+
+Base de Dados: https://docs.google.com/spreadsheets/d/1rIMbuYt4u-IIDmgYCTnzRfnBzKDkAZDG/edit?usp=sharing&ouid=106072107517560133298&rtpof=true&sd=true
+
+Para isso, vamos criar uma automação web:
+
+- Usaremos o selenium
+- Importante: baixar o webdriver
 
 
 <h2>Etapas</h2>
 
-- 
-- 
-- 
-- 
+- Pegar a cotação do Dólar,Euro e Ouro
+- Importar a lista de produtos 
+- Recalcular o preço de cada produto
+- Salvar os novos preços dos produtos
 
 
 <h2>Dependências</h2>
